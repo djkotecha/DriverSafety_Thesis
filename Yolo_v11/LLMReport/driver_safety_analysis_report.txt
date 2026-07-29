@@ -1,0 +1,39 @@
+Model      : Yolov11
+Prediction : talking_phone
+Confidence : 100.00%
+Risk Level : HIGH_RISK
+Safety     : CRITICAL ALERT: Phone usage detected while driving. This is a high-risk distraction behavior that significantly increases accident probability. Immediate intervention recommended.
+
+============================================================
+GRADCAM SUMMARY
+============================================================
+Focus Regions : bottom-center
+Focus Type    : Globally distributed
+Max Activation: 1.0000
+
+============================================================
+SHAP SUMMARY
+============================================================
+Positive contrib: 8.8256
+Negative contrib: 8.6762
+Contrib ratio   : 1.02
+
+============================================================
+LIME SUMMARY
+============================================================
+Pos Segments  : 27
+Neg Segments  : 16
+Contrib ratio : N/A
+
+============================================================
+AI EXPLANATION
+============================================================
+The AI system has detected that the driver is engaged in talking on the phone. It is very confident in this assessment, with a 100% confidence level. This means that the system is almost certain that the driver was using a phone to talk during the monitoring period.
+
+The GradCAM analysis shows that the AI model primarily focused on the bottom-center part of the image, which covered 21.7% of the entire image. This area is likely where the model detected cues associated with phone usage, such as the position of the driver's hands or head. The analysis also highlights that this focus area is globally distributed, meaning the model considered various parts of this region to make its prediction.
+
+According to the SHAP analysis, both positive and negative contributions nearly balanced each other out, with positive contributions slightly outweighing the negative ones (8.83 vs. 8.68). The most influential regions in the image were identified as the middle-left and middle-center, suggesting these areas contributed significantly to the model's decision to classify the activity as talking on the phone.
+
+The LIME analysis evaluated 43 segments of the image and found that 27 segments supported the model's decision, whereas 16 opposed it. The supportive segments had a stronger influence overall, indicating that the regions supporting the prediction outweighed those opposing it. The LIME fidelity score of 0.4951 suggests that the explanation provided by LIME is moderately reliable, but there is room for improvement in understanding the model's decision-making process.
+
+Based on the company's driver safety policies, the detection of talking on the phone requires immediate action. The incident should be flagged for supervisor review, and if the system supports it, a real-time alert should be issued to the driver to minimize the risk of distracted driving. Furthermore, a coaching session should be scheduled with the driver to discuss the dangers of using a phone while driving, and the driver's compliance with phone usage policies should be reviewed. Depending on company policy, disciplinary action may be considered, and the incident should be documented for safety records and trend analysis purposes.

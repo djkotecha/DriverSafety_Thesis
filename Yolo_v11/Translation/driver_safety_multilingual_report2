@@ -1,0 +1,88 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : closed
+Confidence       : 25.36%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : middle-left
+Focus Type       : Globally distributed
+SHAP Positive    : 4.1659
+SHAP Negative    : 4.0794
+LIME Segments    : 25 supporting, 8 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'closed' with 25.4% confidence.
+    Risk Level : HIGH_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the middle-left
+    region(s) of the image. The activation covered
+    48.3% of the image area,
+    characterized as 'Globally distributed'. The bounding box of
+    strong activations covered 64.9%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    bottom-center, middle-left, bottom-right regions of the image.
+    Positive contributing factors (supporting the prediction) : 4.1659
+    Negative contributing factors (opposing the prediction)   : 4.0794
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 33 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 25 segments
+                            (weight: 0.0309)
+    - Opposing Regions    : 8 segments
+                            (weight: -0.0096)
+    - Mean Feature Weight : 0.0063
+    - Base Prediction     : 0.0542
+    - Explanation Reliability: moderate (fidelity: 0.5086)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    DROWSINESS ALERT: Driver fatigue/drowsiness detected. This indicates impaired alertness and reaction time. Recommend immediate break or driver change to prevent accidents.
+
+    RECOMMENDED ACTION:
+    
+      1. IMMEDIATE : Alert dispatch/supervisor — driver may need immediate break
+      2. Check driver's hours of service and recent rest periods
+      3. Implement mandatory rest break if near shift end
+      4. Schedule fatigue management training
+      5. Review scheduling practices to prevent fatigue
+      6. Monitor driver for repeated drowsiness incidents
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Le système d'IA a détecté 'fermé' avec une confiance de 25,4 %. Niveau de risque : RÉSULTATS DE GRADCAM HIGH_RISK (où le modèle a regardé) : Le modèle s'est concentré principalement sur la ou les régions à gauche moyenne de l'image. L'activation couvrait 48,3 % de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 64,9% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions en bas-centre, milieu-gauche, bas-droit de l'image.
+Facteurs contributifs positifs (supportant la prédiction) : 4.1659 Facteurs contributifs négatifs (supposant la prédiction) : 4.0794 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 33 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 25 segments (poids : 0,0309)
+- Régions d'opposition : 8 segments (poids : -0.0096) - Poids moyen de la caractéristique : 0.0063 - Prédiction de base : 0.0542 - Explication Fiabilité : modérée (fidélité : 0.5086) Dans l'ensemble, les régions d'appui l'emportent fortement sur les régions opposées.
+ALERTE À LA CROISSANCE: fatigue/sensibilité du conducteur détectée, ce qui indique une diminution du temps de vigilance et de réaction. Recommandez une interruption immédiate ou un changement de conducteur pour prévenir les accidents.
+3. Mettre en œuvre la pause de repos obligatoire si la fin du quart de travail est proche 4. Programmer la formation à la gestion de la fatigue 5. Examiner les pratiques de planification pour prévenir la fatigue 6. Surveiller le conducteur pour les incidents de somnolence répétés
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIONTECTE MAREGERTHAQ ================================================================================================================================================मुगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगग नियंत्रण: नियंत्रण प्रणाली प्रणाली प्रणालीटमामामामामागगगगगगगगगगगगवरीट नियंत्रण के बारे में पाया गया है, 'डिवरीट नियंत्रण केंद्रीट्डीटिमीटिमीटिमीटिमीटिमीटिमीटिमिक छवि% 0.ीग.
+' वैश्विक रूप से वितरित' के रूप में चिह्नित. मजबूत सक्रियकरण के बॉक्स में 64.9%, छवि की अधिकतम सक्रिय शक्ति के साथ 1. अधिक सक्रिय शक्ति के साथ (क्या निर्णय प्रभावित होता है): भविष्यवाणी नीचे-बीच, मध्य बाएँ- बाएँ- बाएँ, छवि के क्षेत्र.
+सकारात्मक कारण (संग्रेड की भविष्यवाणी का समर्थन करते हुए): ४.१६९ नकारात्मक कारण (युद्ध का विरोध) : ४०७४ LIMEES (कौन सबसे अधिक मामले सबसे अधिक) का परीक्षण किया गया: इस भविष्यवाणी के लिए सबसे कठिन क्षेत्रों की पहचान करने के लिए.
+- क्षेत्रों का विरोध करनेवालों से कड़ा विरोध करनेवालों से कड़ा विरोध किया गया है:
+DRIOMAT: ड्राइवर थकान / swordsssyyssed पता चला. यह असमर्थता और प्रतिक्रिया के समय को सूचित करता है. तुरंत ब्रेक या ड्राइवर दुर्घटना को रोकने के लिए बदल. ROMEDED: 1. ROMEEDIV: सचेत/ sider — ड्राइवर के तुरंत जाँच की आवश्यकता हो सकती है हाल ही सेवा के समय और आराम की अवधि की आवश्यकता हो सकती है.
+3. ===================================================================================== स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति से कम हो सकती है.
+

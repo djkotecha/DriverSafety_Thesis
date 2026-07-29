@@ -1,0 +1,52 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : talking_phone
+Confidence       : 100.00%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : bottom-center
+Focus Type       : Globally distributed
+SHAP Positive    : 8.8256
+SHAP Negative    : 8.6762
+LIME Segments    : 27 supporting, 16 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+The AI system has detected that the driver is engaged in talking on the phone. It is very confident in this assessment, with a 100% confidence level. This means that the system is almost certain that the driver was using a phone to talk during the monitoring period.
+
+The GradCAM analysis shows that the AI model primarily focused on the bottom-center part of the image, which covered 21.7% of the entire image. This area is likely where the model detected cues associated with phone usage, such as the position of the driver's hands or head. The analysis also highlights that this focus area is globally distributed, meaning the model considered various parts of this region to make its prediction.
+
+According to the SHAP analysis, both positive and negative contributions nearly balanced each other out, with positive contributions slightly outweighing the negative ones (8.83 vs. 8.68). The most influential regions in the image were identified as the middle-left and middle-center, suggesting these areas contributed significantly to the model's decision to classify the activity as talking on the phone.
+
+The LIME analysis evaluated 43 segments of the image and found that 27 segments supported the model's decision, whereas 16 opposed it. The supportive segments had a stronger influence overall, indicating that the regions supporting the prediction outweighed those opposing it. The LIME fidelity score of 0.4951 suggests that the explanation provided by LIME is moderately reliable, but there is room for improvement in understanding the model's decision-making process.
+
+Based on the company's driver safety policies, the detection of talking on the phone requires immediate action. The incident should be flagged for supervisor review, and if the system supports it, a real-time alert should be issued to the driver to minimize the risk of distracted driving. Furthermore, a coaching session should be scheduled with the driver to discuss the dangers of using a phone while driving, and the driver's compliance with phone usage policies should be reviewed. Depending on company policy, disciplinary action may be considered, and the incident should be documented for safety records and trend analysis purposes.
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+Le système AI a détecté que le conducteur est engagé dans la conversation au téléphone. Il est très confiant dans cette évaluation, avec un niveau de confiance de 100%. Cela signifie que le système est presque certain que le conducteur utilisait un téléphone pour parler pendant la période de surveillance.
+L'analyse GradCAM montre que le modèle d'IA se concentrait principalement sur la partie inférieure-centre de l'image, qui couvrait 21,7 % de l'image entière. Cette zone est probablement où le modèle a détecté des indices associés à l'utilisation du téléphone, comme la position des mains ou de la tête du conducteur. L'analyse souligne également que cette zone de focalisation est distribuée à l'échelle mondiale, ce qui signifie que le modèle a considéré différentes parties de cette région pour faire sa prédiction.
+
+Selon l'analyse du SHAP, les contributions positives et négatives se sont presque équilibrées, les contributions positives l'emportant légèrement sur les contributions négatives (8,83 vs. 8,68) et les régions les plus influentes de l'image ont été identifiées comme étant le centre intermédiaire à gauche et le centre intermédiaire, ce qui suggère que ces régions ont contribué de façon significative à la décision du modèle de classer l'activité comme parlant au téléphone.
+
+L'analyse LIME a évalué 43 segments de l'image et a révélé que 27 segments appuyaient la décision du modèle, alors que 16 étaient opposés. Les segments favorables avaient une influence plus forte dans l'ensemble, ce qui indiquait que les régions appuyant la prédiction l'emportaient sur celles qui s'y opposaient. Le score de fidélité LIME de 0,4951 suggère que l'explication fournie par LIME est modérément fiable, mais qu'il y a place pour une meilleure compréhension du processus décisionnel du modèle.
+
+En se fondant sur les politiques de sécurité des conducteurs de l'entreprise, la détection des conversations téléphoniques exige une action immédiate. L'incident doit être signalé pour examen par le superviseur et si le système l'appuie, une alerte en temps réel doit être émise au conducteur afin de minimiser le risque de distrait de la conduite. De plus, une séance d'encadrement devrait être organisée avec le conducteur pour discuter des dangers de l'utilisation d'un téléphone pendant la conduite et la conformité du conducteur aux politiques d'utilisation du téléphone devrait être examinée.
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+एआई तंत्र ने पता लगाया है कि ड्राइवर फोन पर बात कर रहा है. यह बहुत विश्वास है, एक 100% भरोसे स्तर के साथ. इसका मतलब है कि तंत्र लगभग यकीन है कि चालक की निगरानी अवधि के दौरान बात करने के लिए एक फोन का उपयोग कर रहा था.
+ग्राम विश्लेषण दिखाता है कि एआई मॉडल मुख्य रूप से छवि के निचले हिस्से पर केंद्रित है, जो कि पूरी छवि के 217% को कवर किया गया है. संभवतः यह क्षेत्र है जहाँ मॉडल पाया गया फोन उपयोग के साथ, जैसे कि चालक के हाथ या सिर की स्थिति. विश्लेषण भी विशिष्ट करता है कि इस क्षेत्र पर ध्यान केंद्रित किया गया है, इस क्षेत्र के कई भागों को इस क्षेत्र के बारे में वितरित किया गया है.
+
+SHAP विश्लेषण के अनुसार, दोनों सकारात्मक और नकारात्मक अंशदानों के अनुसार, सकारात्मक योगदान के साथ नकारात्मक दानों से थोड़ा ही अधिक होता है (833 v.68.6.) छवि के सबसे प्रभावशाली क्षेत्रों की पहचान मध्य- बाएँ और मध्य केंद्र के रूप में की गई थी, इन क्षेत्रों का सुझाव दिया गया है कि फोन पर बात करने के लिए कक्षा के काम को उल्लेखनीय रूप में योगदान दिया गया.
+
+LIELIE का विश्लेषण छवि के 43 खण्डों का मूल्यांकन करते हुए पाया और पाया कि 27 खण्ड आदर्श के निर्णय का समर्थन करता है, जबकि 16 का विरोध किया. समर्थनात्मक वर्ग एक मजबूत प्रभाव था, यह सूचित करता है कि क्षेत्रों ने विरोध करनेवालों को प्रोत्साहित किया था. LEECECICT द्वारा दी गई व्याख्या आश्वस्तता है कि LECYIE, लेकिन वहाँ जमीन मॉडल बनाने की प्रक्रिया में सुधार के लिए है.
+
+कंपनी के ड्राइवर सुरक्षा नीति पर बात करने के आधार पर, फोन पर बात करने के लिए तुरंत कार्यवाही की आवश्यकता होती है. यह घटना निश्चित कार्यवाही के लिए फ्लैग किया जाना चाहिए, और यदि सिस्टम इसे समर्थन करता है, तो एक वास्तविक समय चेतावनी के लिए ड्राइवर को प्रेरित किया जाना चाहिए कि गाड़ी चलाते समय के जोखिम को कम करें. इसके अलावा, एक के साथ फोन के प्रयोग के बारे में बात करना चाहिए, जबकि कंपनी के प्रयोग के बारे में विचार किया जाना चाहिए, और सुरक्षा नीति पर विचार किया जाना चाहिए.
+

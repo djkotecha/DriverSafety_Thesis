@@ -1,0 +1,85 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : open
+Confidence       : 25.36%
+Risk Level       : SAFE
+GradCAM Focus    : middle-right
+Focus Type       : Moderately focused
+SHAP Positive    : 0.5548
+SHAP Negative    : 0.4574
+LIME Segments    : 22 supporting, 8 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'open' with 25.4% confidence.
+    Risk Level : SAFE
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the middle-right
+    region(s) of the image. The activation covered
+    7.5% of the image area,
+    characterized as 'Moderately focused'. The bounding box of
+    strong activations covered 25.0%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    bottom-center, middle-center regions of the image.
+    Positive contributing factors (supporting the prediction) : 0.5548
+    Negative contributing factors (opposing the prediction)   : 0.4574
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 30 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 22 segments
+                            (weight: 0.0270)
+    - Opposing Regions    : 8 segments
+                            (weight: -0.0085)
+    - Mean Feature Weight : 0.0072
+    - Base Prediction     : 0.1372
+    - Explanation Reliability: moderate (fidelity: 0.4612)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    SAFE: Driver appears to be focused on the road, not yawning and eyes are open with proper attention. Hands on wheel, eyes forward. This is the expected safe driving behavior.
+
+    RECOMMENDED ACTION:
+    
+      1. No action required — driver showing appropriate attention
+      2. Consider positive reinforcement in driver recognition programs
+      3. Use as example in safety training materials
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Le système d'IA a détecté 'ouvert' avec une confiance de 25,4%. Niveau de risque : CONSTATATIONS DE GRADCAM EN SAUVEGARDE (où le modèle a regardé) : Le modèle s'est principalement concentré sur la (les) région(s) de droite moyenne de l'image. L'activation couvrait 7,5 % de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 25,0 % de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre inférieur et du centre médian de l'image. Facteurs contributifs positifs (supportant la prédiction) : 0,5548
+Facteurs contributifs négatifs (opposant la prédiction) : 0.4574 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 30 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 22 segments (poids : 0.0270) - Régions Opposantes : 8 segments (poids : -0.0085)
+- Poids moyen de la caractéristique : 0,0072 - Prédiction de base : 0,1372 - Explication Fiabilité : modérée (fidélité : 0,4612) Dans l'ensemble, les régions d'appui l'emportent fortement sur les régions opposées.
+SAUVETE: Le conducteur semble se concentrer sur la route, pas le bâillement et les yeux sont ouverts avec l'attention appropriée. Mains sur la roue, les yeux vers l'avant. C'est le comportement de conduite sécuritaire attendu.
+Je ne sais pas ce que c'est.
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIVERAGERTEPERTH(=======================================================================================================================================================DIMIMINIMIMINIMIMIMIMIMIMIMIMIMINININININE: सिस्टम के साथ विन्यास ( संस्करण% मौजूदा छवि को प्रभावित करता है)
+'काँचितित रूप से ध्यान केंद्रित' के रूप में चिह्नित. मजबूत सक्रिय सक्रियकरण का बॉक्स, 1.00 की अधिकतम सक्रिय शक्ति के साथ। (क्या निर्णय को प्रभावित किया गया था): भविष्यवाणी नीचे-बीच, मध्य महाद्वीपीय क्षेत्रों में लक्षणों द्वारा प्रभावित किया गया था. सकारात्मक तत्व (मान्य तत्व: 055)
+नकारात्मक तत्त्व (संग्रेस का विरोध करते हुए): 0. 405 LIELELENELELIENEEIIIIIIIIIIIIIES सबसे ज़्यादा इस भविष्यवाणी के सबसे कठिन इलाकों की पहचान करने के लिए।
+- औसत भार: 0.0572 - आधार की भविष्यवाणी: 0.3722 - एनिलेशन रिलीमेंट - एनीसीता: संतुलित (प्रैल: 0.612), क्षेत्रों में विरोधियों से कड़ा विरोधियों से कड़ा विरोध किया गया है.
+SFAF: ड्राइवर सड़क पर ध्यान देने के लिए ध्यान केंद्रित होता है, न कि आँखें उचित ध्यान के साथ खुले हैं ।
+======================================================================
+

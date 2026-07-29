@@ -1,0 +1,12 @@
+image_path,true_label,pred_label,correct,confidence,GradCAM_insertion_score,GradCAM_deletion_score,GradCAM_confidence_drop,GradCAM_drop_percentage,GradCAM_sparsity,SHAP_insertion_score,SHAP_deletion_score,SHAP_confidence_drop,SHAP_drop_percentage,SHAP_sparsity,LIME_insertion_score,LIME_deletion_score,LIME_confidence_drop,LIME_drop_percentage,LIME_sparsity
+c:\DriverSafety\Data_Split\test\closed\_102.jpg,closed,closed,1,0.9932923316955566,0.3321,0.9284,0.9709,97.75,0.0,0.3199,0.9932,0.049,4.94,0.9509,0.3401,0.9591,0.6588,66.33,0.5484
+c:\DriverSafety\Data_Split\test\closed\_11.jpg,closed,closed,1,0.9941709637641907,0.3249,0.934,0.9718,97.75,0.0,0.32,0.9942,0.1829,18.39,0.8705,0.3293,0.9558,0.7392,74.35,0.5927
+c:\DriverSafety\Data_Split\test\closed\_122.jpg,closed,closed,1,0.9934418201446533,0.331,0.9565,0.9711,97.75,0.0,0.32,0.9933,0.0111,1.12,0.9018,0.3326,0.9569,0.8738,87.96,0.6369
+c:\DriverSafety\Data_Split\test\no_yawn\1029.jpg,no_yawn,no_yawn,1,0.9704757332801819,0.3348,0.9381,0.92,94.79,0.0,0.3199,0.9707,0.73,75.22,0.8259,0.3536,0.9452,0.9345,96.29,0.5363
+c:\DriverSafety\Data_Split\test\open\_100.jpg,open,open,1,0.9948868155479431,0.3225,0.9673,0.9728,97.78,0.0,0.3203,0.9949,0.0,0.0,0.9866,0.339,0.9694,0.874,87.85,0.6245
+c:\DriverSafety\Data_Split\test\other_activities\2019-04-2416-33-09.png,other_activities,other_activities,1,0.5352076292037964,0.3362,0.5188,0.2549,47.63,0.1726,0.3191,0.5368,0.0265,4.95,0.9241,0.3418,0.5537,0.1925,35.97,0.6645
+c:\DriverSafety\Data_Split\test\safe_driving\2019-04-2416-28-03.png,safe_driving,other_activities,0,0.33841946721076965,0.3305,0.3501,0.2052,60.63,0.404,0.3192,0.3408,0.0302,8.91,0.8705,0.3475,0.3671,0.0311,9.18,0.6934
+c:\DriverSafety\Data_Split\test\talking_phone\img_10025.jpg,talking_phone,talking_phone,1,0.9768838286399841,0.3336,0.6092,0.8325,85.22,0.0067,0.3198,0.9771,0.8255,84.51,0.9062,0.3448,0.4935,0.9083,92.98,0.5983
+c:\DriverSafety\Data_Split\test\texting_phone\2019-04-2416-09-30.png,texting_phone,other_activities,0,0.30344295501708984,0.343,0.368,-0.0225,-7.43,0.1453,0.3194,0.3032,-0.0851,-28.05,0.9107,0.3503,0.405,0.018,5.94,0.8029
+c:\DriverSafety\Data_Split\test\turning\2019-04-2416-03-03.png,turning,turning,1,0.4907824695110321,0.3263,0.4291,0.3317,67.59,0.7085,0.3191,0.4899,0.0068,1.39,0.9866,0.3393,0.3716,0.4021,81.93,0.6306
+c:\DriverSafety\Data_Split\test\yawn\103.jpg,yawn,yawn,1,0.9888890981674194,0.3233,0.981,0.9565,96.72,0.0074,0.3197,0.9889,0.9239,93.43,0.8259,0.3266,0.9814,0.9489,95.95,0.6176

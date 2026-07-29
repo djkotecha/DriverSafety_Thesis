@@ -1,0 +1,88 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : talking_phone
+Confidence       : 25.36%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : middle-center
+Focus Type       : Moderately focused
+SHAP Positive    : 5.1306
+SHAP Negative    : 4.9539
+LIME Segments    : 18 supporting, 13 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'talking_phone' with 25.4% confidence.
+    Risk Level : HIGH_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the middle-center
+    region(s) of the image. The activation covered
+    5.8% of the image area,
+    characterized as 'Moderately focused'. The bounding box of
+    strong activations covered 22.3%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    middle-center, middle-right regions of the image.
+    Positive contributing factors (supporting the prediction) : 5.1306
+    Negative contributing factors (opposing the prediction)   : 4.9539
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 31 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 18 segments
+                            (weight: 0.0266)
+    - Opposing Regions    : 13 segments
+                            (weight: -0.0043)
+    - Mean Feature Weight : 0.0044
+    - Base Prediction     : 0.1893
+    - Explanation Reliability: moderate (fidelity: 0.4253)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    CRITICAL ALERT: Phone usage detected while driving. This is a high-risk distraction behavior that significantly increases accident probability. Immediate intervention recommended.
+
+    RECOMMENDED ACTION:
+    
+      1. IMMEDIATE : Flag this incident for supervisor review
+      2. Issue real-time alert/notification to driver
+      3. Schedule coaching session on distracted driving risks
+      4. Review driver's phone usage policy compliance
+      5. Consider disciplinary action per company policy
+      6. Document incident for safety records and trend analysis
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Le système d'IA a détecté 'talking_phone' avec une confiance de 25,4%. Niveau de risque : HIGH_RISK GRADCAM FINDINGS (Où le modèle a regardé) : Le modèle se concentrait principalement sur la ou les région(s) centrale(s) de l'image. L'activation couvrait 5,8% de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 22,3% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre-milieu, du milieu-droit de l'image. Facteurs contributifs positifs (supportant la prédiction) : 5.1306
+Facteurs contributifs négatifs (opposant la prédiction) : 4.9539 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 31 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 18 segments (poids : 0.0266) - Régions Opposantes : 13 segments (poids : -0.0043)
+- Poids moyen de la caractéristique : 0,0044 - Prédiction de base : 0,1893 - Explication Fiabilité : modérée (fidélité : 0,4253) Dans l'ensemble, les régions d'appui l'emportent fortement sur les régions opposées.
+ALERTE CRITIQUE : Utilisation du téléphone détectée pendant la conduite. Il s'agit d'un comportement de distraction à haut risque qui augmente significativement la probabilité d'accident. Intervention immédiate recommandée. MESURES RECOMMANDÉES : 1. IMMÉDIAT : Signalez cet incident pour examen par le superviseur.
+4. Examiner la conformité de la politique d'utilisation du téléphone du conducteur 5. envisager des mesures disciplinaires par la politique de l'entreprise 6. documenter l'incident pour les dossiers de sécurité et l'analyse des tendances
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIACTE MONTE MARTE MARTH रिपोर्ट ====================================================================================================================================मुगगगगगगगगगगगगटटटटटटटटटटटटटटटटटिएटटटटटटटटटटटटटटटटटटटिएटटटटटटटटटटटटटटटटिएटटटटटटटटटबग नियंत्रण के बारे में दिखाई दिया गया: विन्यासीक जानकारी के बारे में छवि को प्रभावित किया गया है।
+'काँक्षित रूप से ध्यान केंद्रित' के रूप में चिह्नित. मजबूत सक्रिय सक्रियकरण का बॉक्स, 1.00 की अधिकतम सक्रिय शक्ति के साथ (क्या निर्णय प्रभावित किया गया था): भविष्यवाणी मध्य- मध्य- मध्य- मध्य क्षेत्र, छवि के पहलुओं द्वारा प्रभावित किया गया था. सकारात्मक तत्वों को बढ़ावा दिया गया:
+नकारात्मक तत्त्व (किसी भविष्यवाणी का विरोध) : ४.९9 LIELENEEENEEEEEEES (कौन - सबसे अधिक): LEEIE छवि खण्ड इस भविष्यवाणी के लिए सबसे कठिन क्षेत्रों की पहचान करने के लिए।
+- औसत भार: 0.0444 - आधार भविष्यवाणी: 0.8833 - एनिलेशन रिलीमेंट - एनिमेंट रिलीमेंटेस: 0.625 प्रतिशत, कुल मिलाकर क्षेत्रों में विरोधियों से काफी विरोध किया गया है.
+SERIANT: फोन उपयोग का पता चला है, यह एक उच्च-संत्रीय व्यवहार है जो दुर्घटना संभावना को बहुत अधिक बढ़ाता है. RERECACAEDEDEDECT: 1. READEDEAEDEDENT: इस घटना पर पुनर्विचार के लिए ध्वज 2 के लिए तैयार किया जा रहा है.
+4.=============================================================================================== स्थिति स्थिति स्थिति स्थिति स्थिति संख्या संख्या संख्या संख्या संख्या संख्या, और स्थिति से कम हो सकता है, और इन समस्याओं को कम से कम करने के लिए खोज कर रहा है
+

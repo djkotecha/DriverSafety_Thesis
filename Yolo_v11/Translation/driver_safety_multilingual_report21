@@ -1,0 +1,88 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : texting_phone
+Confidence       : 25.36%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : bottom-right
+Focus Type       : Globally distributed
+SHAP Positive    : 2.1521
+SHAP Negative    : 1.9204
+LIME Segments    : 29 supporting, 6 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'texting_phone' with 25.4% confidence.
+    Risk Level : HIGH_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the bottom-right
+    region(s) of the image. The activation covered
+    13.2% of the image area,
+    characterized as 'Globally distributed'. The bounding box of
+    strong activations covered 99.1%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    middle-center, middle-right regions of the image.
+    Positive contributing factors (supporting the prediction) : 2.1521
+    Negative contributing factors (opposing the prediction)   : 1.9204
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 35 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 29 segments
+                            (weight: 0.0163)
+    - Opposing Regions    : 6 segments
+                            (weight: -0.0022)
+    - Mean Feature Weight : 0.0046
+    - Base Prediction     : 0.1665
+    - Explanation Reliability: moderate (fidelity: 0.3878)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    CRITICAL ALERT: Phone usage detected while driving. This is a high-risk distraction behavior that significantly increases accident probability. Immediate intervention recommended.
+
+    RECOMMENDED ACTION:
+    
+      1. IMMEDIATE : Flag this incident for supervisor review
+      2. Issue real-time alert/notification to driver
+      3. Schedule coaching session on distracted driving risks
+      4. Review driver's phone usage policy compliance
+      5. Consider disciplinary action per company policy
+      6. Document incident for safety records and trend analysis
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Le système AI a détecté 'texting_phone' avec une confiance de 25,4%. Niveau de risque : HIGH_RISK GRADCAM FINDINGS (Où le modèle a regardé) : Le modèle se concentrait principalement sur la ou les régions en bas à droite de l'image. L'activation couvrait 13,2% de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 99,1% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre-moyen, du centre-droit de l'image. Facteurs contributifs positifs (supportant la prédiction) : 2.1521
+Facteurs contributifs négatifs (opposant la prédiction) : 1.9204 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 35 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 29 segments (poids : 0.0163) - Régions Opposantes : 6 segments (poids : -0.0022)
+- Poids moyen de la caractéristique : 0.0046 - Prédiction de base : 0.1665 - Explication Fiabilité : modérée (fidélité : 0.3878) Dans l'ensemble, les régions d'appui l'emportent fortement sur les régions opposées.
+ALERTE CRITIQUE : Utilisation du téléphone détectée pendant la conduite. Il s'agit d'un comportement de distraction à haut risque qui augmente significativement la probabilité d'accident. Intervention immédiate recommandée. MESURES RECOMMANDÉES : 1. IMMÉDIAT : Signalez cet incident pour examen par le superviseur.
+4. Examiner la conformité de la politique d'utilisation du téléphone du conducteur 5. envisager des mesures disciplinaires par la politique de l'entreprise 6. documenter l'incident pour les dossiers de sécurité et l'analyse des tendances
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIONTECTE MAREGERTHAQ ===============================================================================================================================================मुगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगग नियंत्रण प्रणाली प्रणालीटटटटटटटटटटटटटटटटिएटटटटटटटटटटिएटटटटटटटगगगगगगगगगगगगगगगगग नियंत्रण प्रणाली की जानकारी थी, नियंत्रण केंद्र छवि को प्रभावित कर रहा है।
+' वैश्विक रूप से वितरित किया गया' के रूप में चिह्नित. मजबूत सक्रियकरण के बॉक्स में से 99.1%, छवि की अधिकतम सक्रिय शक्ति के साथ (क्या निर्णय प्रभावित किया गया था): भविष्यवाणी मध्य- मध्य- मध्य- मध्य क्षेत्र में हुई विशेषताओं द्वारा प्रभावित किया गया था. छवि के सकारात्मक तत्वों को बढ़ावा दिया गया: 22121.
+नकारात्मक तत्त्व (युद्ध का विरोध करते हुए): 1204 LIELLELELIMEEES (जो सबसे अधिक मामले में हैं): LEEEEIIII छवि खण्ड इस भविष्यवाणी के सबसे महत्वपूर्ण क्षेत्रों की पहचान करने के लिए. - समर्थन क्षेत्र: 29 भाग: 0.16 - Ditans (50: 0.005 - F0: 62)
+- औसत भार: 0.046 - आधारित भविष्यवाणी: 0.66565 - एनिलेशन रिलीमेंट - एनीसीता: संतुलित (टी.3878), क्षेत्रों में अत्यधिक विरोधियों का समर्थन करती है.
+SERIANT: फोन उपयोग का पता चला है, यह एक उच्च-संत्रीय व्यवहार है जो दुर्घटना संभावना को बहुत अधिक बढ़ाता है. RERECACAEDEDEDECT: 1. READEDEAEDEDENT: इस घटना पर पुनर्विचार के लिए ध्वज 2 के लिए तैयार किया जा रहा है.
+4.=============================================================================================== स्थिति स्थिति स्थिति स्थिति स्थिति संख्या संख्या संख्या संख्या संख्या संख्या, और स्थिति से कम हो सकता है, और इन समस्याओं को कम से कम करने के लिए खोज कर रहा है
+

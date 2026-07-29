@@ -1,0 +1,88 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : yawn
+Confidence       : 25.36%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : bottom-right
+Focus Type       : Globally distributed
+SHAP Positive    : 1.2053
+SHAP Negative    : 1.0122
+LIME Segments    : 15 supporting, 12 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'yawn' with 25.4% confidence.
+    Risk Level : HIGH_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the bottom-right
+    region(s) of the image. The activation covered
+    19.6% of the image area,
+    characterized as 'Globally distributed'. The bounding box of
+    strong activations covered 84.9%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    bottom-center regions of the image.
+    Positive contributing factors (supporting the prediction) : 1.2053
+    Negative contributing factors (opposing the prediction)   : 1.0122
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 27 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 15 segments
+                            (weight: 0.1168)
+    - Opposing Regions    : 12 segments
+                            (weight: -0.0135)
+    - Mean Feature Weight : 0.0068
+    - Base Prediction     : 0.1428
+    - Explanation Reliability: high (fidelity: 0.9452)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    DROWSINESS ALERT: Driver fatigue/drowsiness detected. This indicates impaired alertness and reaction time. Recommend immediate break or driver change to prevent accidents.
+
+    RECOMMENDED ACTION:
+    
+      1. IMMEDIATE : Alert dispatch/supervisor — driver may need immediate break
+      2. Check driver's hours of service and recent rest periods
+      3. Implement mandatory rest break if near shift end
+      4. Schedule fatigue management training
+      5. Review scheduling practices to prevent fatigue
+      6. Monitor driver for repeated drowsiness incidents
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Niveau de risque : RÉSULTATS DU GRADCAM HIGH_RISK (où le modèle a regardé) : Le modèle se concentrait principalement sur la ou les régions en bas à droite de l'image. L'activation couvrait 19,6 % de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 84,9% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre inférieur de l'image. Facteurs contributifs positifs (supportant la prédiction) : 1.2053
+Facteurs contributifs négatifs (opposant la prédiction) : 1.0122 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 27 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 15 segments (poids : 0.1168) - Régions Opposantes : 12 segments (poids : -0.0135)
+- Poids moyen de la caractéristique : 0.0068 - Prédiction de base : 0.1428 - Explication Fiabilité : élevée (fidélité : 0.9452) Dans l'ensemble, les régions de soutien l'emportent fortement sur les régions adverses.
+MESURES RECOMMANDÉES : 1. IMMÉDIAT : Expédition d'alerte/superviseur — le conducteur peut avoir besoin d'une pause immédiate 2. Vérifiez les heures de service du conducteur et les périodes de repos récentes 3. Mettre en oeuvre une pause de repos obligatoire si le quart de travail approche 4. Planifier la formation à la gestion de la fatigue 5. Examiner les pratiques de planification pour prévenir la fatigue 6. Surveiller les incidents de somnolence répétés
+Je ne sais pas ce que c'est.
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIVERAGERTECTHAQ ===================================================================================================================================================मुगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगमामामामामामामामामामामामामामामागगगग नियंत्रण स्थलीटटटम नियंत्रण के बारे में युक्ति स्थलीगगगगगगगगवरीटमामामामामामामामामामामागगगगगगगगगगगगगगगगगगगगगगगगिकल नियंत्रण केंद्र के बारे में है। मॉडलीय मान रहा है। मॉडलीगगग.
+' वैश्विक रूप से वितरित' के रूप में चिह्नित. मजबूत सक्रिय सक्रियकरण के बॉक्स पर आधारित ८४.9% छवि की एक अधिकतम सक्रिय शक्ति के साथ, 1.00. SHAPERS (क्या निर्णय प्रभावित किया गया था): भविष्यवाणी छवि के तल - मध्य क्षेत्रों में लक्षणों द्वारा प्रभावित किया गया था. सकारात्मक तत्वों को बढ़ावा दिया गया: 1203.
+नकारात्मक कारण (संग्रेस का विरोध) : 1.122 LIELELIELIELIES (आज के इलाके में सबसे ज़्यादा) का अध्ययन किया गया है: इस भविष्यवाणी के लिए 27 छवि खण्डों की पहचान कराने के लिए.
+- औसत भार: 0.068 - आधारक भविष्यवाणी: 0.282828 - एनिलियन रिलीमेंट: उच्च (एन: 0.45452), ऐसे क्षेत्रों का समर्थन करनेवाले विरोध करनेवालों से बहुत अधिक है ।
+ROCOMOMED आदेश: 1. IMEDIMEANANE: सचेत/ sider — ड्राइवर को जल्दी ब्रेक की आवश्यकता होगी 2 घंटे सेवा के घंटे और हाल ही में विश्राम अवधि 3. यदि निष्क्रिय किए गए कार्य को टालना ४ के क़रीब है, तो थकानी हुई घटनाओं के लिए ड्राइवर को नज़रअंदाज़ करने से रोका जाना चाहिए.
+======================================================================
+

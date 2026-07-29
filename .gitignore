@@ -1,0 +1,32 @@
+# Top-level checkpoint folder (unrelated to the ones below)
+CheckPoint/
+
+# Ignore only the checkpoints subfolder inside each model folder
+Resnet50/**/checkpoints/
+Resenet50/**/checkpoints/
+Yolo_v11/**/checkpoints/
+Yolo_v8/**/checkpoints/
+
+# Data folders — ignore contents but keep code/notebooks/configs
+Input/**
+Data_Split/**
+!Input/**/*.py
+!Data_Split/**/*.py
+!**/*.ipynb
+!**/*.yaml
+!**/*.yml
+
+# Model weight files, wherever they appear
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+*.keras
+*.zip
+*.jpg
+*.jpeg
+*.png
+
+# Jupyter autosave junk
+.ipynb_checkpoints/

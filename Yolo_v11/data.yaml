@@ -1,0 +1,9 @@
+data_config = {
+    "train" : "/content/gdrive/MyDrive/DriverSafety/dataset/train",
+    "val"   : "/content/gdrive/MyDrive/DriverSafety/dataset/val",
+    "nc"    : 9,
+    "names" : [
+        "closed", "no_yawn", "open", "other_activities",
+        "safe_driving", "talking_phone", "texting_phone", "turning", "yawn"
+    ]
+}

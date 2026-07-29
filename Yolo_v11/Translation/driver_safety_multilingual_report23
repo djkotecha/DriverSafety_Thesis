@@ -1,0 +1,87 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : turning
+Confidence       : 25.36%
+Risk Level       : MEDIUM_RISK
+GradCAM Focus    : top-left
+Focus Type       : Globally distributed
+SHAP Positive    : 5.7251
+SHAP Negative    : 5.5818
+LIME Segments    : 19 supporting, 10 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'turning' with 25.4% confidence.
+    Risk Level : MEDIUM_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the top-left
+    region(s) of the image. The activation covered
+    47.0% of the image area,
+    characterized as 'Globally distributed'. The bounding box of
+    strong activations covered 99.1%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    middle-center regions of the image.
+    Positive contributing factors (supporting the prediction) : 5.7251
+    Negative contributing factors (opposing the prediction)   : 5.5818
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 29 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 19 segments
+                            (weight: 0.0059)
+    - Opposing Regions    : 10 segments
+                            (weight: -0.0016)
+    - Mean Feature Weight : 0.0017
+    - Base Prediction     : 0.2337
+    - Explanation Reliability: moderate (fidelity: 0.2527)
+    Overall, supporting regions strongly outweigh opposing ones.
+    
+    SAFETY INTERPRETATION:
+    WARNING: Driver is engaging in secondary task that diverts attention from the road. While less severe than phone use, this behavior still increases crash risk. Monitor closely.
+
+    RECOMMENDED ACTION:
+    
+      1. Document incident in driver's safety record
+      2. Provide feedback during next driver check-in
+      3. Review in-cab organization and accessibility of items
+      4. Remind driver to pull over for extended tasks
+      5. Monitor for frequency — repeated incidents require intervention
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Niveau de risque : MEDIUM_RISK GRADCAM FINDINGS (Où le modèle a regardé) : Le modèle s'est concentré principalement sur la (les) région(s) supérieure(s) gauche(s) de l'image. L'activation couvrait 47,0% de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 99,1% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre moyen de l'image. Facteurs contributifs positifs (supportant la prédiction) : 5.7251
+Facteurs contributifs négatifs (opposant la prédiction) : 5.5818 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 29 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 19 segments (poids : 0.0059) - Régions Opposantes : 10 segments (poids : -0.0016)
+- Poids moyen de la caractéristique : 0,0017 - Prédiction de base : 0,2337 - Explication Fiabilité : modérée (fidélité : 0,2527) Dans l'ensemble, les régions de soutien l'emportent fortement sur les régions opposées.
+AVERTISSEMENT: Le conducteur s'engage dans une tâche secondaire qui détourne l'attention de la route. Bien que moins sévère que l'utilisation du téléphone, ce comportement augmente encore le risque d'accident. Surveillez attentivement.
+4. Rappelez au conducteur de s'arrêter pour des tâches prolongées 5. Surveillez la fréquence — les incidents répétés nécessitent une intervention
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIONTECTE MAREGERTH(==========================================================================================================================================================================मुगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगगवरीटिंग प्रणाली प्रणाली प्रणाली प्रणाली प्रणालील नियंत्रण के बारे में पता लगा रहा है, नियंत्रण केंद्र के बारे में छवि स्थिति में.
+' वैश्विक रूप से वितरित' के रूप में चिह्नित. मजबूत सक्रिय सक्रियकरण के बॉक्स में से 99.1%, छवि की अधिकतम सक्रिय शक्ति के साथ (क्या निर्णय प्रभावित किया गया था): भविष्यवाणी छवि के मध्य क्षेत्र में विशेषताओं द्वारा प्रभावित किया गया था. सकारात्मक तत्वों को बढ़ावा दिया: 5551.
+नकारात्मक तत्त्व (संग्रेस का विरोध करते हुए): ५.८१८ LIELIELIELIES (कौन सबसे अधिक): LEIE छवि खण्ड इस भविष्यवाणी के लिए सबसे कठिन क्षेत्रों की पहचान करने के लिए. - समर्थन क्षेत्र: १९ मिनट (0.059 - क़दम: १०)
+- औसत भार: 0.0107 - आधार भविष्यवाणी: 0.337 - एनिलेशन रिलीमेंट रिलीमेंट रिलीमेंट: 0.2527, कुल मिलाकर क्षेत्रों में विरोध करनेवालों से बहुत ज़्यादा है.
+चेतावनी: ड्राइवर अन्य कार्य में भाग ले रहा है जो सड़क से ध्यान भटकाता है. जबकि फोन का उपयोग से कम गंभीर होने पर भी यह व्यवहार अब भी क्रैश जोखिम को बढ़ाता है. ध्यानपूर्वक चेतावनी: ड्राइवर के सुरक्षा रिकॉर्ड 2 में दस्तावेज़ की घटना दे अगले ड्राइवर की जाँच के दौरान दें.
+4.============================================================================================= स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति से ऊपर की जा रही है
+

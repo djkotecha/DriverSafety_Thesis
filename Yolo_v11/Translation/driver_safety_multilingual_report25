@@ -1,0 +1,88 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : yawn
+Confidence       : 25.36%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : bottom-left
+Focus Type       : Globally distributed
+SHAP Positive    : 2.9150
+SHAP Negative    : 2.7808
+LIME Segments    : 15 supporting, 16 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+
+    DRIVER SAFETY ANALYSIS REPORT
+    ============================================================
+
+    DETECTION SUMMARY:
+    The AI system detected 'yawn' with 25.4% confidence.
+    Risk Level : HIGH_RISK
+
+    GRADCAM FINDINGS (Where the model looked):
+    The model primarily focused on the bottom-left
+    region(s) of the image. The activation covered
+    13.6% of the image area,
+    characterized as 'Globally distributed'. The bounding box of
+    strong activations covered 84.0%
+    of the image, with a maximum activation strength of
+    1.00.
+
+    SHAP FINDINGS (What influenced the decision):
+    The prediction was influenced by features in the
+    middle-center regions of the image.
+    Positive contributing factors (supporting the prediction) : 2.9150
+    Negative contributing factors (opposing the prediction)   : 2.7808
+    
+    LIME FINDINGS (Which regions matter most):
+    LIME analyzed 31 image segments to identify
+    the most critical regions for this prediction.
+    - Supporting Regions  : 15 segments
+                            (weight: 0.0625)
+    - Opposing Regions    : 16 segments
+                            (weight: -0.0157)
+    - Mean Feature Weight : 0.0066
+    - Base Prediction     : 0.1746
+    - Explanation Reliability: moderate (fidelity: 0.7116)
+    Overall, opposing regions are notable — prediction may be uncertain.
+    
+    SAFETY INTERPRETATION:
+    DROWSINESS ALERT: Driver fatigue/drowsiness detected. This indicates impaired alertness and reaction time. Recommend immediate break or driver change to prevent accidents.
+
+    RECOMMENDED ACTION:
+    
+      1. IMMEDIATE : Alert dispatch/supervisor — driver may need immediate break
+      2. Check driver's hours of service and recent rest periods
+      3. Implement mandatory rest break if near shift end
+      4. Schedule fatigue management training
+      5. Review scheduling practices to prevent fatigue
+      6. Monitor driver for repeated drowsiness incidents
+      
+============================================================
+
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+RAPPORT D'ANALYSE DE LA SÉCURITÉ DES RÉDACTEURS : Le système d'IA a détecté 'yawn' avec une confiance de 25,4%. Niveau de risque : HIGH_RISK GRADCAM FINDINGS (Où le modèle a regardé) : Le modèle s'est concentré principalement sur la ou les régions en bas à gauche de l'image. L'activation couvrait 13,6% de la zone d'image,
+La boîte de délimitation des activations fortes couvrait 84,0% de l'image, avec une force d'activation maximale de 1.00. SHAP FINDINGS (Ce qui a influencé la décision): La prédiction a été influencée par des caractéristiques dans les régions du centre moyen de l'image. Facteurs contributifs positifs (supportant la prédiction) : 2.9150
+Facteurs contributifs négatifs (opposant la prédiction) : 2.7808 CONSTATATIONS LIMÉES (Quelles régions comptent le plus) : LIME a analysé 31 segments d'images pour identifier les régions les plus critiques pour cette prédiction. - Régions d'appui : 15 segments (poids : 0.0625) - Régions Opposantes : 16 segments (poids : -0.0157)
+- Poids moyen de la caractéristique : 0,0066 - Prédiction de base : 0,1746 - Explication Fiabilité : modérée (fidélité : 0,7116) Dans l'ensemble, les régions opposées sont notables — la prédiction peut être incertaine.
+ALERTE À LA CROISSANCE: fatigue/sensibilité du conducteur détectée, ce qui indique une diminution du temps de vigilance et de réaction. Recommandez une interruption immédiate ou un changement de conducteur pour prévenir les accidents.
+3. Mettre en œuvre la pause de repos obligatoire si la fin du quart de travail est proche 4. Programmer la formation à la gestion de la fatigue 5. Examiner les pratiques de planification pour prévenir la fatigue 6. Surveiller le conducteur pour les incidents de somnolence répétés
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+DRIVERAGERTECTHAQ ====================================================================================================================================================मुगगगगगगगगगगगगगगगगगINIMIMININININININIMININININICHINININICHIGININICHICHICHICHICHINERICHICHICHICHERERERICHICHICHIीक प्रथम छवि के बारे में पाया गया है:
+' वैश्विक रूप से वितरित' के रूप में चिह्नित. मजबूत सक्रिय सक्रियकरण के बॉक्स में से ८४.0%, छवि की अधिकतम सक्रिय शक्ति के साथ (क्या निर्णय प्रभावित किया गया था): भविष्यवाणी छवि के मध्य क्षेत्र में विशेषताओं द्वारा प्रभावित किया गया था. सकारात्मक तत्वों को बढ़ावा दिया गया: 250.
+नकारात्मक तत्त्व (युद्ध का विरोध): 2.7808 LEEENEEENEEEENEEEEEIES (ही सबसे अधिक): LEEEIEI छवि खण्ड इस भविष्यवाणी के सबसे कठिन क्षेत्रों की पहचान करने के लिए।
+- औसत भार: 0.0606 - आधारक भविष्यवाणी: 0.746 - एनिलेशन रिलीमेंट - एनीसीसीता: संतुलित (प्रैल: 0. 11116, विरोधी क्षेत्रों में उल्लेखनीय हैं — भविष्यवाणी शायद अनिश्‍चित हो ।
+DRIOMAT: ड्राइवर थकान / swordsssyyssed पता चला. यह असमर्थता और प्रतिक्रिया के समय को सूचित करता है. तुरंत ब्रेक या ड्राइवर दुर्घटना को रोकने के लिए बदल. ROMEDED: 1. ROMEEDIV: सचेत/ sider — ड्राइवर के तुरंत जाँच की आवश्यकता हो सकती है हाल ही सेवा के समय और आराम की अवधि की आवश्यकता हो सकती है.
+3. ===================================================================================== स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति स्थिति से कम हो सकती है.
+

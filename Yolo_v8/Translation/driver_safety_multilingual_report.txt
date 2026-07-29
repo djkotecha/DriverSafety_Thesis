@@ -1,0 +1,48 @@
+================================================================================
+DRIVER SAFETY ANALYSIS — MULTILINGUAL REPORT
+================================================================================
+
+ANALYSIS METADATA
+----------------------------------------
+Predicted Class  : talking_phone
+Confidence       : 99.99%
+Risk Level       : HIGH_RISK
+GradCAM Focus    : middle-center, middle-left
+Focus Type       : Globally distributed
+SHAP Positive    : 39.5664
+SHAP Negative    : 39.5665
+LIME Segments    : 30 supporting, 13 opposing
+
+================================================================================
+ ENGLISH (Original)
+================================================================================
+The system has detected that the driver is engaged in the activity of talking on the phone. The confidence level of this detection is extremely high at 100%, indicating that the system is certain about its prediction.
+
+The GradCAM analysis, which helps us understand where the model focused when making its prediction, shows that the model's attention was primarily on the middle-center and middle-left regions of the image. The activation area covered 100% of the image, with maximum activation, meaning the model considered the entire image, but its focus was globally distributed rather than concentrated in one specific spot.
+
+In examining what influenced the decision most, the SHAP analysis shows that both positive and negative contributions to the prediction were equally balanced at 39.57. The key influential regions were the middle-center, bottom-center, and middle-left areas. This balance indicates that while the model saw evidence for talking on the phone, it also considered other factors equally.
+
+The LIME analysis provides insight into which specific segments of the image were critical in the decision-making process. Out of 43 segments analyzed, 30 supported the prediction of talking on the phone, while 13 opposed it. The strongest support came from a segment with a weight of 0.6606, much higher than the strongest opposition weight of -0.0424. The mean feature weight and the LIME fidelity score of 0.7536 suggest that the explanation is reasonably reliable, with supporting regions significantly outweighing opposing ones.
+
+Given the detection of talking on the phone, immediate actions are recommended. This incident should be flagged for supervisor review, and if the system supports it, a real-time alert should be issued to the driver. A coaching session should be scheduled to discuss the risks of distracted driving, and the driver's compliance with phone usage policies should be reviewed. Depending on company policy, disciplinary action might be considered. Additionally, this incident should be documented for safety records and trend analysis to help improve overall driver safety.
+
+================================================================================
+ FRENCH (Français)
+================================================================================
+Le système a détecté que le conducteur est engagé dans l'activité de parler au téléphone. Le niveau de confiance de cette détection est extrêmement élevé à 100%, ce qui indique que le système est certain de sa prédiction.
+L'analyse GradCAM, qui nous aide à comprendre où le modèle se concentrait lorsqu'il faisait sa prédiction, montre que l'attention du modèle était principalement axée sur les régions du centre et du milieu gauche de l'image. La zone d'activation couvrait 100% de l'image, avec une activation maximale, ce qui signifie que le modèle considérait l'image entière, mais son focus était distribué globalement plutôt que concentré dans un seul endroit spécifique.
+En examinant ce qui a le plus influencé la décision, l'analyse du SHAP montre que les contributions positives et négatives à la prédiction ont été équilibrées à 39,57. Les régions influentes clés étaient les zones du centre moyen, du centre inférieur et du milieu à gauche.
+L'analyse LIME fournit un aperçu des segments spécifiques de l'image qui ont été critiques dans le processus décisionnel. Sur 43 segments analysés, 30 appuyaient la prédiction de parler au téléphone, tandis que 13 s'y opposaient. L'appui le plus fort provenait d'un segment d'un poids de 0,6606, beaucoup plus élevé que le poids le plus fort de l'opposition de -0,0424. Le poids moyen de la caractéristique et le score de fidélité LIME de 0,7536 suggèrent que l'explication est raisonnablement fiable, les régions d'appui l'emportent de façon significative sur les régions opposées.
+
+Compte tenu de la détection des conversations téléphoniques, des mesures immédiates sont recommandées. Cet incident devrait être signalé pour examen par le superviseur, et si le système l'appuie, une alerte en temps réel devrait être émise au conducteur. Une séance d'encadrement devrait être prévue pour discuter des risques de conduite distrait, et la conformité du conducteur aux politiques d'utilisation du téléphone devrait être examinée.
+
+================================================================================
+ HINDI (हिन्दी)
+================================================================================
+तंत्र ने पता लगाया है कि ड्राइवर फोन पर बात करने के काम में लगा हुआ है ।
+ग्राम विश्लेषण, जो हमें यह समझने में मदद करता है कि मॉडल का ध्यान मुख्य रूप से मध्य-स्थान और छवि के मध्य क्षेत्र पर था। सक्रिय क्षेत्र, अधिकतम सक्रिय, मतलब है पूरी छवि, लेकिन उसका ध्यान एक विशिष्ट स्थान पर केंद्रित किया गया था।
+सबसे बड़े निर्णय पर क्या असर हुआ की जाँच करने में, SHAP विश्लेषण दिखाता है कि भविष्यवाणी के लिए दोनों सकारात्मक और नकारात्मक अंशदान बराबर थे ३९७ में. प्रमुख क्षेत्र मध्य-बीच, तल- बीच के क्षेत्र थे, और मध्य- बाएं क्षेत्रों. इस संतुलन से सूचित होता है कि जबकि मॉडल फोन पर बात करने के लिए सबूत देखा था, यह भी अन्य कारणों पर विचार किया.
+LIMEMES विश्लेषण प्रदान करता है कि कौन सा विशिष्ट वर्ग निर्णय - निर्माण प्रक्रिया में महत्वपूर्ण थे. 43 खंड में से 30 का परीक्षण, फोन पर बात करने की भविष्यवाणी का समर्थन किया गया, जबकि 13 का विरोध किया गया. सबसे मजबूत समर्थन एक अंश के साथ, 0.24 के सबसे भारी विरोध के साथ किया गया.
+
+फोन पर बात करने के बारे में बात की गई, तत्काल कार्यों की सिफ़ारिश की जाती है. यह घटना सुपरलर समीक्षा के लिए फ्लैग किया जाना चाहिए, और यदि सिस्टम समर्थन करता है, एक वास्तविक समय चेतावनी चालक के लिए जारी किया जाना चाहिए. एक कोचिंग सत्र को ध्यान भंग करने के जोखिमों पर चर्चा करने के लिए, और ड्राइवर के प्रयोग नियमों के पालन पर विचार किया जाना चाहिए. कंपनी नीति पर विचार किया जा सकता है, इसके अलावा इस घटना पर विचार किया जा सकता है कि सुरक्षा के लिए सुरक्षा के बारे में विचार किया जाना चाहिए.
+
