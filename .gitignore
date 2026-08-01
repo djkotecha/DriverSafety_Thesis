@@ -6,6 +6,12 @@ Resnet50/**/checkpoints/
 Resenet50/**/checkpoints/
 Yolo_v11/**/checkpoints/
 Yolo_v8/**/checkpoints/
+Input/*.jpg
+Input/*.png
+Input/*.jpeg
+Data_Split/*.jpg
+Data_Split/*.png
+Data_Split/*.jpeg
 
 # Data folders — ignore contents but keep code/notebooks/configs
 Input/**
@@ -24,9 +30,7 @@ Data_Split/**
 *.onnx
 *.keras
 *.zip
-*.jpg
-*.jpeg
-*.png
+
 
 # Jupyter autosave junk
 .ipynb_checkpoints/
