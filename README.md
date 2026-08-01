@@ -12,6 +12,7 @@
 
 ## General Information
 Problem statement: This thesis is comparing Resnet50, Yolov8 and YOLO11 models and applying XAI methods like Grad-CAM, SHAP and LIME for quantitative evaluation and using LLM to generate natural language explanation of XAI output.
+<br>
 Resnet50/Resnet50.ipynb - contains code to train Resnet50 model, run classification matric on the best model found, run all XAI methods on it, evaluate XAI with various quantitative matrics, Use LLM to generate natural language exaplanation based on XAI outputs and finally XAI batch comparison.
 
 Yolo_v8/Yolo8.ipynb and Yolo_v11/Yolo11.ipynb- contains code to follow same steps for YOLOv8 and YOLO11.
